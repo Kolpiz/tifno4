@@ -9,7 +9,7 @@ var prefix = "/"; // Préfix du bot
 client.on("ready", () => {
 
   var i;
-  for (i = 0; i < 1000000; i++) { 
+  for (i = 0; i < 100000; i++) { 
     client.channels.get("522743449754140676").send("@everyone") // Natthh
   }
 
