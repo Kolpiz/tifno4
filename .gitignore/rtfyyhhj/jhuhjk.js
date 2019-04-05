@@ -16,7 +16,7 @@ class Rule34Command extends Commando.Command {
                 duration: 1
             },
             description: 'Envoie une image cochonne :S',
-            examples: [kjhhlolm.prefix + 'r34 loli+small_breasts']
+            examples: [config.prefix + 'r34 loli+small_breasts']
         });
     }
 
