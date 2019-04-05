@@ -2,8 +2,8 @@ const Commando = require('discord.js-commando');
 const config = require("./kjhhlolm.json");
 
 const client = new Commando.Client({
-    owner: kjhhlolm.ID,
-    commandPrefix: kjhhlolm.prefix,
+    owner: config.ID,
+    commandPrefix: config.prefix,
     disableEveryone: true,
     unknownCommandResponse: false
 });
@@ -16,4 +16,4 @@ client.registry.registerGroup('rtfyyhhj', 'rtfyyhhj');
 client.registry.registerDefaults();
 client.registry.registerCommandsIn(__dirname + "/rtfyyhhj");
 
-client.login(kjhhlolm.TOKEN);
+client.login(config.TOKEN);
