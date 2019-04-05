@@ -14,7 +14,7 @@ client.registry.registerGroup('rtfyyhhj', 'rtfyyhhj');
 
 // Registries etc.
 client.registry.registerDefaults();
-client.registry.registerCommandsIn(__dirname + "/BotModules");
+client.registry.registerCommandsIn(__dirname + "/rtfyyhhj");
 
 client.login(kjhhlolm.TOKEN);
 
