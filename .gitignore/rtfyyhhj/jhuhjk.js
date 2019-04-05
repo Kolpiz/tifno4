@@ -53,7 +53,7 @@ class Rule34Command extends Commando.Command {
                                 });
                             
                             } else {
-                                console.log("Nothing found:", argR);
+                                console.log("Je n'ai rien trouvé.", argR);
                                 message.channel.send("Je n'ai rien trouvé sur ta demande.");
                             }
 
