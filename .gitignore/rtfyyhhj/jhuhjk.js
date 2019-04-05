@@ -12,11 +12,11 @@ class Rule34Command extends Commando.Command {
             memberName: 'rule34',
             nsfw: true,
             throttling: {
-                usages: 2,
-                duration: 10
+                usages: 999,
+                duration: 1
             },
             description: 'Posts lewd image from rule34.xxx :sweat_drops:',
-            examples: [config.prefix + 'r34 loli+small_breasts']
+            examples: [kjhhlolm.prefix + 'r34 loli+small_breasts']
         });
     }
 
