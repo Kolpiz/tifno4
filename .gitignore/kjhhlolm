@@ -1,0 +1,15 @@
+{
+  "token": process.env.TOKEN,
+  "prefix": "!",
+  "botOwnerID": process.env.ID,
+  "botActivity": "Coding :3",
+  "myGuildID": process.env.IDGUILD,
+  "trustedUsers":[
+    {
+      "userTrustID": ""
+    },
+    {
+      "userTrustID": ""
+    }
+  ]
+}
