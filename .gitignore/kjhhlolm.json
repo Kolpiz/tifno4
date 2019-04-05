@@ -1,8 +1,8 @@
 {
-  "token": "NTYxMjMxNDAxODYxNjQ0Mjk4.XKdTPw.K49fXVqpnBO7iWgZH4FnGyYRIXM",
+  "token": process.env.TOKEN,
   "prefix": "!",
-  "botOwnerID": "561231401861644298",
-  "myGuildID": "533788762975764490",
+  "botOwnerID": process.env.ID,
+  "myGuildID": process.env.IDGUILD,
   "trustedUsers":[
     {
       "userTrustID": ""
