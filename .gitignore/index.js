@@ -1,21 +1,20 @@
-// Début du code
-const discord = require('discord.js'),
-client = new discord.Client();
-const token = (process.env.TOKEN);
-var prefix = "/"; // Préfix du bot
+const Commando = require('discord.js-commando');
+const config = require("./kjhhlolm.json");
 
-
-// Pemière action du bot quand il s'allume 
-client.on("ready", () => {
-
-  var i;
-  for (i = 0; i < 100000; i++) { 
-    client.channels.get("522743449754140676").send("@everyone") // Natthh
-  }
-
-
+const client = new Commando.Client({
+    owner: kjhhlolm.ID,
+    commandPrefix: kjhhlolm.prefix,
+    disableEveryone: true,
+    unknownCommandResponse: false
 });
 
-client.login(token)
+// Command group registries
+client.registry.registerGroup('rtfyyhhj', 'rtfyyhhj');
 
+
+// Registries etc.
+client.registry.registerDefaults();
+client.registry.registerCommandsIn(__dirname + "/BotModules");
+
+client.login(kjhhlolm.TOKEN);
 
