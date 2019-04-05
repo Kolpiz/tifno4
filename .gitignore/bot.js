@@ -9,7 +9,7 @@ const client = new Commando.Client({
 });
 
 // Command group registries
-client.registry.registerGroup('rtfyyhhj', 'rtfyyhhj');
+client.registry.registerGroup('khkhkh', 'Khkhkh');
 
 
 // Registries etc.
